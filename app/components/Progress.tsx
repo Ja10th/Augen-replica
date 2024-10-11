@@ -73,7 +73,7 @@ const Progress = () => {
             className="text-gray-500 font-light"
           >
             <p>*</p>
-            <p className="max-w-sm md:max-w-[10rem] text-sm md:mx-auto">
+            <p className="max-w-xs md:max-w-[10rem] text-sm md:mx-auto">
               Committed to advancing Wearable & Neural Technologies for the
               Intelligence Age.
             </p>

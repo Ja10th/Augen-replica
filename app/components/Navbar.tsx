@@ -5,7 +5,7 @@ import { PiStarOfDavidThin } from "react-icons/pi";
 const Navbar = () => {
   return (
     <div className="items-center max-w-7xl mx-auto fixed z-10 top-9 left-1/2 transform -translate-x-1/2 ">
-      <div className="flex gap-80 md:gap-2 items-center">
+      <div className="flex gap-72 md:gap-2 items-center">
         <div className="bg-gray-100  bg-opacity-95 p-2 rounded-full">
           <PiStarOfDavidThin className="text-2xl" />
         </div>

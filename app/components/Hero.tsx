@@ -76,7 +76,7 @@ export default function Hero() {
 
       {/* Arrow at Bottom */}
       <motion.div
-        className="absolute bottom-8 left-20 bg-gray-100 px-1 py-3 rounded-2xl"
+        className="absolute hidden md:block bottom-8 left-20 bg-gray-100 px-1 py-3 rounded-2xl"
         initial={{ scale: 0.5, opacity: 0 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ delay: 2, duration: 0.8 }}
