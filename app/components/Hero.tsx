@@ -53,7 +53,7 @@ export default function Hero() {
         className='absolute bottom-[15%] left-20 '
         initial={{ filter: 'blur(10px)', opacity: 0 }}
         animate={{ filter: 'blur(0px)', opacity: 1 }}
-        transition={{ delay: 1.5, duration: 2 }}
+        transition={{ delay: 1.2, duration: 1.5, ease:'backInOut' }}
       >
         <p className='font-mono pb-2'>augen</p>
         <p className='text-2xl max-w-[13rem] font-light'>Enhancement of human experience.</p>

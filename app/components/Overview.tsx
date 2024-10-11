@@ -36,16 +36,16 @@ const Overview = () => {
       <div className='max-w-8xl flex mx-auto gap-60 py-20 justify-center'>
         <motion.div 
         initial= {{filter: 'blur(4px)', opacity: 0}}
-        animate= {{filter: 'blur(0px)', opacity: 1}}
-        transition={{ delay: 1.5, duration: 2}}
+        whileInView= {{filter: 'blur(0px)', opacity: 1}}
+        transition={{ delay: 1, duration: 2, ease: "easeInOut",}}
         >
           <p className='font-thin text-sm'>Overview</p>
           <p className='text-sm'>What&apos;s Augen </p>
         </motion.div>
         <motion.div 
         initial={{y:-100, opacity: 0}}
-        animate={{y:0, opacity: 1}}
-        transition={{delay: 1.5, duration: 2}}
+        whileInView={{y:0, opacity: 1}}
+        transition={{delay: 1.2, duration: 1.5, ease: "easeInOut",}}
         className='max-w-lg'>
           <p className='text-2xl font-light'>Augen is the first-of-its-kind AI Wearable
             Company bringing general-purpose devices
