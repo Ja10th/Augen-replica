@@ -16,7 +16,7 @@ export default function Hero() {
         <img
           src="Augen.webp"
           alt="Augen heading"
-          className="h-[120vh] md:h-screen object-contain md:object-cover "
+          className="h-[90vh] md:h-screen object-contain md:object-cover "
         />
         <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-white to-transparent opacity-85"></div>
       </motion.div>
