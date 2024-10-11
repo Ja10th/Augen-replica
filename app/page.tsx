@@ -1,4 +1,5 @@
 import Docs from "./components/Docs";
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Industry from "./components/Industry";
 import Mission from "./components/Mission";
@@ -19,6 +20,7 @@ export default function Home() {
      <Progress />
      <Docs />
      <Update />
+     <Footer />
     </>
   );
 }

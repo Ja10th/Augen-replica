@@ -16,13 +16,13 @@ export default function Hero() {
         <img
           src="Augen.webp"
           alt="Augen heading"
-          className="h-screen object-cover"
+          className="h-[120vh] md:h-screen object-contain md:object-cover "
         />
         <div className="absolute bottom-0 left-0 right-0 h-[60%] bg-gradient-to-t from-white to-transparent opacity-85"></div>
       </motion.div>
 
       {/* Discover More Section - Centered Properly */}
-      <div className="flex items-center rounded-xl absolute top-24 left-1/2 transform -translate-x-1/2 bg-gray-100 p-2 cursor-pointer group">
+      <div className="md:flex items-center hidden rounded-xl absolute top-24 left-1/2 transform -translate-x-1/2 bg-gray-100 p-2 cursor-pointer group">
         <motion.p
           className="text-gray-500 font-thin text-[11px] px-8"
           initial={{ filter: "blur(0px)" }}
@@ -51,17 +51,17 @@ export default function Hero() {
 
       {/* Enhancement of Human Experience Text */}
       <motion.div
-        className="absolute bottom-[15%] left-20 "
+        className="absolute bottom-[55%] md:bottom-[15%] left-1/2 transform -translate-x-1/2 md:translate-x-0 md:left-20 "
         initial={{ filter: "blur(10px)", opacity: 0 }}
         animate={{ filter: "blur(0px)", opacity: 1 }}
         transition={{ delay: 1.2, duration: 1.5, ease: "backInOut" }}
       >
-        <p className="font-mono pb-2">augen</p>
-        <p className="text-2xl max-w-[13rem] font-light">
+        <p className="font-mono pb-2 text-center md:text-left">augen</p>
+        <p className="text-2xl max-w-[13rem] font-light text-center md:text-left">
           Enhancement of human experience.
         </p>
         <div className="flex pt-4 gap-1">
-          <p className="font-thin text-sm">Explore</p>
+          <p className="font-thin text-sm hidden md:block">Explore</p>
           <button className="text-blue-400 font-extralight border border-blue-400 px-3 text-sm rounded-2xl">
             A<sup>1</sup>Sense
           </button>

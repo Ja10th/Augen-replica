@@ -15,11 +15,12 @@ const Mission = () => {
         <p className="font-extralight text-blue-500">We put Humans First</p>
       </motion.div>
 
-      <div className="flex max-w-8xl mx-auto gap-60  py-20 justify-center">
+      <div className="flex flex-col md:flex-row px-10 md:px-0 max-w-8xl mx-auto gap-60  py-20 justify-center">
         <motion.div
           initial={{ y: -100, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.2, duration: 1.5, ease: "easeInOut" }}
+          className="hidden md:block"
         >
           <div>
             <p className="text-gray-400 font-thin text-sm">0.1</p>

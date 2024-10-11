@@ -9,7 +9,7 @@ const Industry = () => {
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 1.2, duration: 1.5, ease: "easeInOut" }}
-        className="max-w-6xl  flex justify-between items-center pl-[29rem] pt-6 mx-auto"
+        className="md:max-w-6xl flex flex-col gap-10 md:gap-0 md:flex-row md:justify-between md:items-center pl-10 md:pl-[29rem] pt-6 md:mx-auto"
       >
         <div className="flex flex-col justify-center text-left ">
           <hr className="w-2 mb-2 border-blue-500" />
@@ -37,13 +37,13 @@ const Industry = () => {
         transition={{ delay: 1.2, duration: 1.5, ease: "easeIn" }}
         className="flex justify-end"
       >
-        <hr className="w-[75%]  mt-24 border-t-1 border-gray-600" />
+        <hr className="w-full md:w-[75%]  mt-24 border-t-1 border-gray-600" />
       </motion.div>
       <motion.div
         initial={{ y: 100, opacity: 0 }}
         whileInView={{ y: 0, opacity: 1 }}
         transition={{ delay: 1.2, duration: 1.5, ease: "easeInOut" }}
-        className="flex max-w-4xl gap-60 pl-8 mx-auto py-20 "
+        className="flex flex-col md:flex-row max-w-4xl gap-20 md:gap-60 pl-8 mx-auto py-20 "
       >
         <div>
           <div>
@@ -51,7 +51,7 @@ const Industry = () => {
             <p className="text-white text-sm">How We Talk</p>
           </div>
         </div>
-        <div className="flex gap-10">
+        <div className="flex gap-20 md:gap-10">
           <div>
             <p className="text-white text-xl">
               <span className="text-blue-500">[</span>ehe<sup>1</sup>

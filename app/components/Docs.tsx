@@ -6,7 +6,7 @@ import { IoIosArrowRoundDown } from "react-icons/io";
 const Docs = () => {
   return (
     <div className="bg-blue-500">
-      <div className="max-w-4xl flex gap-20 py-28 mx-auto pl-10">
+      <div className="max-w-4xl flex flex-col  md:flex-row gap-20 py-28 mx-auto pl-10">
         <div className="flex">
           <motion.p
             initial={{ filter: "blur(4px)", opacity: 0 }}

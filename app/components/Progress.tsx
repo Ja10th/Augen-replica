@@ -15,7 +15,7 @@ const Progress = () => {
         >
           Our Progress
         </motion.p>
-        <div className="max-w-4xl mx-auto flex pl-10 gap-40 ">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row pl-10 gap-20 gap:gap-40 ">
           <motion.div
             initial={{ filter: "blur(4px)", opacity: 0 }}
             whileInView={{ filter: "blur(0px)", opacity: 1 }}
@@ -45,7 +45,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeIn" }}
-              className="max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
+              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
             >
               We blend innovation and insight to transform bold visions into
               reality, redefining the future of human enhancement with
@@ -56,7 +56,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeInOut" }}
-              className="max-w-[12rem] text-sm text-gray-500 font-extralight mx-auto"
+              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight md:mx-auto"
             >
               These devices are not merely products; they are keys to
               unparalleled human augmentation. With a mission focused on
@@ -73,7 +73,7 @@ const Progress = () => {
             className="text-gray-500 font-light"
           >
             <p>*</p>
-            <p className="max-w-[10rem] text-sm mx-auto">
+            <p className="max-w-sm md:max-w-[10rem] text-sm md:mx-auto">
               Committed to advancing Wearable & Neural Technologies for the
               Intelligence Age.
             </p>
@@ -86,7 +86,7 @@ const Progress = () => {
         transition={{ delay: 1.2, duration: 1.5, ease: "easeIn" }}
         className="flex justify-end"
       >
-        <hr className="w-[75%]  mt-24 border-t-1 border-gray-600" />
+        <hr className="w-full md:w-[75%]  mt-24 border-t-1 border-gray-600" />
       </motion.div>
       <div className="py-20">
         <motion.p
@@ -97,7 +97,7 @@ const Progress = () => {
         >
           Our Aim
         </motion.p>
-        <div className="max-w-4xl mx-auto flex pl-10 gap-40 ">
+        <div className="max-w-4xl mx-auto flex flex-col md:flex-row pl-10 gap-20 md:gap-40 ">
           <motion.div
             initial={{ filter: "blur(4px)", opacity: 0 }}
             whileInView={{ filter: "blur(0px)", opacity: 1 }}
@@ -126,7 +126,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeIn" }}
-              className="max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
+              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
             >
               We aim to create advanced technological devices that are
               seamlessly integrated with the human body, ensuring stability in
@@ -136,7 +136,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeIn" }}
-              className="max-w-[12rem] text-sm text-gray-500 font-extralight mx-auto"
+              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight md:mx-auto"
             >
               We always keep the end-users of our products in mind, prioritizing
               safety, accessibility, and reliability throughout our engineering
@@ -150,7 +150,7 @@ const Progress = () => {
             className="text-gray-500 font-light"
           >
             <p>*</p>
-            <p className="max-w-[10rem] text-sm mx-auto">
+            <p className="max-w-sm md:max-w-[10rem] text-sm md:mx-auto">
               Envisioning the future with a Pro-Human approach.
             </p>
           </motion.div>
