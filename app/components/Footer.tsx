@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <div className="bg-[#0F1012]">
       <div className="pt-20">
-        <div className="flex flex-col md:flex-row max-w-md md:max-w-[90rem] justify-between mx-auto">
+        <div className="flex flex-col md:flex-row max-w-md md:max-w-[90rem] px-10 justify-between mx-auto">
           <div>
             <p className="text-white text-xl">augen</p>
           </div>
@@ -69,7 +69,7 @@ const Footer = () => {
           <div className="text-gray-200 bg-opacity-95 p-2 rounded-full">
             <PiStarOfDavidThin className="text-6xl" />
           </div>
-          <div className="flex text-gray-200 px-10 md:px-0 font-thin text-xs md:text-sm gap-4 pr-24">
+          <div className="md:flex hidden text-gray-200 px-10 md:px-0 font-thin text-xs md:text-sm gap-4 pr-24">
             <p>Privacy Policy</p>
             <p>Terms of Use</p>
             <p>Cookie Policy</p>

@@ -15,7 +15,7 @@ const Update = () => {
           transition={{ delay: 1.2, duration:1.5, ease: 'easeInOut' }}
           >
             <h2 className="text-2xl">Putting People First</h2>
-            <p className="text-gray-500 py-5 text-sm  font-extralight max-w-sm md:max-w-md">
+            <p className="text-gray-500 py-5 text-sm  font-extralight max-w-xs md:max-w-md">
               Through the use of wearable technology, we aim to enhance human
               capabilities and generate a positive impact on the world.
             </p>
@@ -39,7 +39,7 @@ const Update = () => {
           whileInView={{y: 0, opacity: 1}}
           transition={{ delay: 1.2, duration:1.5, ease: 'easeInOut' }} >
             <h2 className="text-2xl">Stay Updated</h2>
-            <p className="text-gray-500 py-5 text-sm font-extralight max-w-md ">
+            <p className="text-gray-500 py-5 text-sm font-extralight max-w-xs md:max-w-md ">
               Stay updated with our latest technological innovations and
               advancements in research and development.
             </p>

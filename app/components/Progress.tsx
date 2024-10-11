@@ -45,7 +45,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeIn" }}
-              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
+              className="max-w-xs md:max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
             >
               We blend innovation and insight to transform bold visions into
               reality, redefining the future of human enhancement with
@@ -56,7 +56,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeInOut" }}
-              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight md:mx-auto"
+              className="max-w-xs md:max-w-[12rem] text-sm text-gray-500 font-extralight md:mx-auto"
             >
               These devices are not merely products; they are keys to
               unparalleled human augmentation. With a mission focused on
@@ -126,7 +126,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeIn" }}
-              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
+              className="max-w-xs md:max-w-[12rem] text-sm text-gray-500 font-extralight pb-10"
             >
               We aim to create advanced technological devices that are
               seamlessly integrated with the human body, ensuring stability in
@@ -136,7 +136,7 @@ const Progress = () => {
               initial={{ y: 100, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{ delay: 1.1, duration: 1.2, ease: "easeIn" }}
-              className="max-w-sm md:max-w-[12rem] text-sm text-gray-500 font-extralight md:mx-auto"
+              className="max-w-xs md:max-w-[12rem] text-sm text-gray-500 font-extralight md:mx-auto"
             >
               We always keep the end-users of our products in mind, prioritizing
               safety, accessibility, and reliability throughout our engineering

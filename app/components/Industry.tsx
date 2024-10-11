@@ -51,7 +51,7 @@ const Industry = () => {
             <p className="text-white text-sm">How We Talk</p>
           </div>
         </div>
-        <div className="flex gap-20 md:gap-10">
+        <div className="flex gap-12 md:gap-10">
           <div>
             <p className="text-white text-xl">
               <span className="text-blue-500">[</span>ehe<sup>1</sup>
